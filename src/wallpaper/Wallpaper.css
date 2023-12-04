@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+.backgroundImage {
+    background-color: #001651;
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .backgroundImage {
+      height: 250vh;
+    }
+  }
+
+
+.bg {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media(max-width:768px) {
+    .bg {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-right: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width:768px) {
+    .logo {
+        justify-content: flex-start;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+
+    .logo-t {
+        width: 100px;
+        height: 37px;
+    }
+}
+
+.text-01 {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    color: white;
+}
+
+.Lass-text {
+    margin-right: 5px;
+    font-size: 75px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.description {
+    font-family: Helvetica;
+    font-weight: lighter;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    /* Hide overflow text */
+    text-overflow: ellipsis;
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 27px;
+    padding-right: 5px;
+}
+
+@media(max-width:768px) {
+    .text-01 {
+        padding-top: 10px;
+    }
+
+    .Lass-text {
+        font-size: 25px;
+    }
+
+    .description {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+}
+
+.container-x {
+    display: flex;
+    flex-direction: row;
+    height: 297px;
+    /* border: 1px solid red; */
+} 
+
+@media(max-width:768px){
+    .container-x {
+        flex-direction: column;
+        height: 297px;
+        /* border: 1px solid red; */
+    } 
+}
+
+.form-profile{
+    background-color: #e1e1e1;
+}
+
+.form {
+    flex: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.profile {
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.form-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+  .form-text .image-1, .image-2, .image-3, .image-4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.form-inputbox {
+    padding-top: 15px;
+}
+
+.icon-1 {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.icon-2 {
+    padding-left: 25px;
+    padding-right: 4px;
+}
+
+.form input {
+    border: 1px solid rgb(100, 97, 97);
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+    padding: 4px;
+    width: 300px;
+}
+
+.form ::placeholder {
+    color: rgb(100, 99, 99);
+}
