@@ -10,8 +10,6 @@ import ImgB from "../images/ImgB.png"
 import ImgC from "../images/ImgC.png"
 import ImgD from "../images/ImgD.png"
 
-
-
 const Wallpaper = () => {
     return (
         <div className="backgroundImage">
@@ -66,9 +64,8 @@ const Wallpaper = () => {
                                     />
                                 </div>
 
-
                                 <div className='form-inputbox'>
-                                    <img src={Cale} className='icon-2'  alt="icon1"></img>
+                                    <img src={Cale} className='icon-2' alt="icon1"></img>
                                     <input className='Day'
                                         type="text"
                                         id="day"
@@ -80,7 +77,7 @@ const Wallpaper = () => {
                             </form>
                         </div>
                     </div>
-                    
+
                     <div className='form-text'>
                         <div className='image-1'> <img src={ImgA} alt='ImgA' ></img> </div>
                         <div className='image-2'><img src={ImgB} alt='ImgA'></img> </div>

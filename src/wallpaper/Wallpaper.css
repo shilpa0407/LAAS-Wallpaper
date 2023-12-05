@@ -12,9 +12,9 @@
 
 @media (max-width: 768px) {
     .backgroundImage {
-      height: 250vh;
+        height: 250vh;
     }
-  }
+}
 
 
 .bg {
@@ -100,23 +100,32 @@
     flex-direction: row;
     height: 297px;
     /* border: 1px solid red; */
-} 
+}
 
-@media(max-width:768px){
+@media(max-width:768px) {
     .container-x {
         flex-direction: column;
         height: 297px;
         /* border: 1px solid red; */
-    } 
+    }
 }
 
-.form-profile{
+.form-profile {
     background-color: #e1e1e1;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .form {
     flex: 1;
-    border-radius: 10px 0px 0px 10px;
+}
+
+@media(max-width:768px) {
+    .form-profile {
+       width: 450px;
+       border-radius: 10px 10px 10px 10px;
+       padding: 10px;
+    }
+    
 }
 
 .profile {
@@ -131,10 +140,21 @@
     flex-direction: column;
 }
 
-  .form-text .image-1, .image-2, .image-3, .image-4{
+.form-text .image-1,
+.image-2,
+.image-3,
+.image-4 {
     margin-top: 0px;
     margin-bottom: 0px;
-  }
+}
+
+@media(max-width:768px) {
+    .form-text .image-1
+     {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    } 
+}
 
 .form-inputbox {
     padding-top: 15px;
@@ -148,6 +168,18 @@
 .icon-2 {
     padding-left: 25px;
     padding-right: 4px;
+}
+
+@media(max-width:768px) {
+    .icon-1 {
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    
+    .icon-2 {
+        padding-left: 45px;
+        padding-right: 4px;
+    } 
 }
 
 .form input {
